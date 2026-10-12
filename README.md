@@ -2,6 +2,8 @@
 
 A Streamlit app that compares an uploaded resume with a job description using the local classifier in `resume-fit-final`.
 
+The inference weights are stored with Git LFS. Install Git LFS before cloning so the model file is downloaded with the repository. Training checkpoints are excluded from Git.
+
 ## Run locally
 
 1. Install the dependencies:
